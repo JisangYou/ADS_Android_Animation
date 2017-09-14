@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.androidtown.animation.JoystickActivity">
+
+    <FrameLayout
+        android:id="@+id/Layoutground"
+        android:layout_width="368dp"
+        android:layout_height="369dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/btn_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="PLAYER" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <Button
+            android:id="@+id/btn_Down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="↓" />
+
+        <Button
+            android:id="@+id/btn_Left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/btn_Down"
+            android:layout_toStartOf="@+id/btn_Down"
+            android:text="← " />
+
+        <Button
+            android:id="@+id/btn_Right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/btn_Down"
+            android:layout_toRightOf="@+id/btn_Down"
+            android:text="→" />
+
+        <Button
+            android:id="@+id/btn_Up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_Down"
+            android:layout_toEndOf="@+id/btn_Left"
+            android:layout_toRightOf="@+id/btn_Left"
+            android:text="↑" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

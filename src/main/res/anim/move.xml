@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+android:duration="3000"
+android:fromXDelta="0"
+android:fromYDelta="0"
+android:toXDelta="100"
+android:fillAfter="true"
+android:toYDelta="300">
+<!--
+fillAfter = true 일 경우 애니메이션의 종료위치에 고정, false 일 경우 원래위치로 복귀(default = false)
+duration =1/1000 초
+
+translate-애니메이션의 종류류
+-->
+
+
+</translate>
