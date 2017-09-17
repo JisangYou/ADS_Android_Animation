@@ -49,14 +49,7 @@ public class ProAniActivity extends AppCompatActivity {
         aniSet.playTogether(aniY, aniX);
         aniSet.setDuration(3000);
         aniSet.setInterpolator(new LinearInterpolator());
-        //LinearInterpolator 외에도 다양한 것이 있다.
-        //점점 빠르게 :
-        //점점 느리게:
-        // 위 둘을 동시에
-        // 시작 위치에서 조금뒤로 당겼다 이동
-        //도착위치를 조금 지나쳤다가 도착위치로 이동
-        //위둘을 동시에
-        //도착위치에서 튕김
+
         aniSet.start();
 
     }
