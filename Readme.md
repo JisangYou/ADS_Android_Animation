@@ -353,7 +353,7 @@ animation.setAnimationListener(new Animation.AnimationListener() {
 
 ## Retrospect
 
-- 단순하지만 간단한 조이스틱 프로그램을 만들어보니 게임을 한번 만들어 보고 싶다는 생각이 들었음.
+- 간단한 조이스틱 프로그램을 만들어보니 나중에는 진짜 게임을 한번 만들어 보고 싶다는 생각이 들었음.
 
 ## Output
 
